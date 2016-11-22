@@ -1,0 +1,8 @@
+CREATE TABLE `test`.`User` (
+  `id` INT(8) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(25) NULL,
+  `age` INT NULL,
+  `isAdmin` BIT(1) NULL,
+  `createdDate` TIMESTAMP(6) NULL,
+  PRIMARY KEY (`id`)
+  )ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
